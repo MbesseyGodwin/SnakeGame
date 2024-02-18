@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#game-info {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#score-info {
+    margin-bottom: 5px;
+}
+
+#controls {
+    margin-top: 10px;
+}
+
+button {
+    margin-right: 10px;
+}
+
+#game-board {
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(20, 20px);
+    grid-template-rows: repeat(20, 20px);
+}
+
+.snake {
+    background-color: green;
+}
+
+.food {
+    background-color: red;
+}
+
+.snake-head {
+    background-color: green; /* Change the color of the snake's head */
+    border-radius: 50%; /* Make the head round */
+}
